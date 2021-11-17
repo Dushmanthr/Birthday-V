@@ -1,0 +1,188 @@
+body {
+  background: #A9CCE3;
+  background-image: url(./img/cakebg.jpg);
+  width:1350px;
+}
+
+.box {
+  border: none;
+  position: relative;
+  display: block;
+  width: 600px;
+  height: 300px;
+  background: none;
+  margin: auto;
+  margin-top: 5%;
+}
+
+/* cake */
+.cakeOval { 
+  position: absolute;
+  width: 25%;
+  height: 20%;
+  background-color: #A93226;
+  border-radius: 50%;
+}
+.cakeFilling {
+  background-color: #A93226;
+  top: 45%;
+  left: 37.5%;
+  z-index: 3;
+}
+.cakeRect{
+    position: absolute;
+  width: 25%;
+  height: 8%;
+  background-color: #FCF3CF;
+}
+.layer1 {
+  top: 56%;
+  left: 37.5%;
+  z-index: 2;
+}
+.cakeBottom{
+    background-color: #FCF3CF;
+    z-index: 1;
+    top: 54%;
+    left: 37.5%;
+}
+.cakeMiddle{
+  background-color: #FCF3CF;
+  z-index: 4;
+  top: 43%;
+  left: 37.5%;
+}
+.layer2{
+  z-index: 5;
+  top: 45%;
+  left: 37.5%;
+}
+.cakeTop{
+  background-color: #FADBD8;
+  z-index: 6;
+  top: 35%;
+  left: 37.25%;
+  width: 25.5%;
+}
+
+/* candles */
+.candle {
+  position: absolute;
+  height: 10%;
+  width: 1.5%;
+  background-color: #AF7AC5;
+/*   top: 30%; */
+  z-index: 7;
+}
+.flameCir {
+  position: absolute;
+  width: 200%;
+  height: 70%;
+  z-index: 8;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+border-radius:50%;
+  top: -70%;
+  left: -50%;
+  background-color: #E67E22;
+}
+.flameInner{
+  position: absolute;
+  z-index: 9;
+  border-radius: 50%;
+  width: 40%;
+  height: 40%;
+  background-color: rgba(244, 208, 63);
+  left: 25%;
+  top: 40%;
+  opacity: 40%;
+  box-shadow: 0px 0px 1px 1px rgba(244, 208, 63);
+  
+  animation-name: flicker;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.can1{
+  top: 30%;
+  left: 49.5%;
+}
+.can1 .flameInner {
+  animation-duration: 4s;
+}
+
+.can2{
+  top: 33%;
+  left: 57%;
+}
+.can2 .flameInner {
+  left: 30%;
+  animation-duration: 3s;
+  animation-delay: -1s;
+}
+
+.can3 {
+   top: 33%;
+  left: 42%;
+}
+.can3 .flameInner {
+  left: 29%;
+  animation-duration: 5s;
+  animation-delay: .5s;
+}
+
+.can4 {
+  top: 38%;
+  left: 46%;
+}
+.can4 .flameInner {
+  left: 23%;
+  animation-duration: 3s;
+  animation-delay: -.5s;
+}
+
+.can5 {
+  top: 38%;
+  right: 45%;
+}
+.can5 .flameInner {
+  left: 24%;
+  animation-duration: 4s;
+  animation-delay: 1s;
+}
+.text h1{
+  padding-left: 520px;
+  font-weight: bold;
+  background:linear-gradient(180deg, #0501f8 0%, #02d1f5 110%);
+}
+.cut {
+  padding-left: 600px;
+ 
+}
+.cut button{
+  background:cornflowerblue;
+  color:darkred;
+  cursor: pointer;
+}
+.bgmusic {
+  /*background-image: linear-gradient(180deg, #f80112 0%, #2602f5 110%);*/
+  padding-left: 530px;
+}
+
+@keyframes flicker {
+  0% {box-shadow: 0px 0px 1px 1px rgba(244, 208, 63);}
+  10% {box-shadow: 0px 0px 1px .9px rgba(244, 208, 63);}
+  20% {box-shadow: 0px 0px 1px 1px rgba(244, 208, 63);}
+  30% {box-shadow: 0px 0px 1px .9px rgba(244, 208, 63);}
+  40%  {box-shadow: -1px 0px 1px .1px rgba(244, 208, 63);
+  opacity: 15%;}
+  50% {box-shadow: -.5px 0px 1px .5px rgba(244, 208, 63);}
+  60%  {box-shadow: .5px 0px 1px .3px rgba(244, 208, 63);}
+  70%  {box-shadow: 0px 0px 1px .9px rgba(244, 208, 63);}
+  80% {box-shadow: 0px 0px 1px 1px rgba(244, 208, 63);}
+}
+90% {box-shadow: 0px 0px 1px .9px rgba(244, 208, 63);}
+}
+  100% {box-shadow: 0px 0px 1px 1px rgba(244, 208, 63);}
+}
+
