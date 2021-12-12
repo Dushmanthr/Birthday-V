@@ -86,4 +86,18 @@ body, html {
   @keyframes spin {
     from { transform:rotateX(45deg) rotateZ(0); }
     to   { transform:rotateX(45deg) rotateZ(360deg); }
-  }    
+  }   
+  
+  .hb button{
+   padding:0;
+   margin:0;
+    background-color: transparent;
+    color: whitesmoke;
+    /*box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);*/
+    cursor: pointer;
+    height: 50px;
+  }
+  .hb{
+    padding-bottom: 185px;
+    padding-left:15px;
+  }
