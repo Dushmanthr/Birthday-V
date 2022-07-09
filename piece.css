@@ -9,7 +9,7 @@ body, html {
     perspective-origin: 50% 50%;
     transform-style: preserve-3d;
     overflow:hidden;
-    background-image: url(./img/newbg.jpg);
+    background-image: url(./img/celebal.jpg);
   }
   .hb {
     position:absolute;
@@ -31,7 +31,7 @@ body, html {
     padding:5px 10px;
     margin:3px 0;
     border-radius:20px;
-    color:#d25177;
+    color:#00ff00;
     text-decoration:none;
     font-weight:bold;
   }
@@ -92,7 +92,7 @@ body, html {
    padding:0;
    margin:0;
     background-color: transparent;
-    color: rgb(255, 0, 0);
+    color: #0000ff;
     /*box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);*/
     cursor: pointer;
     height: 50px;

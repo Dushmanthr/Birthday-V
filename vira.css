@@ -2,13 +2,13 @@ body{
     padding:0;
     margin:0;
     background-color: #06031d;
-    background-image: url(./img/vector-illustration-of-a-happy-birthday-greeting-card-JMKWAX.jpg);
+    background-image: url(./img/balloon_purple.jpg);
 
 }
 .bday{
     margin-top: 60px;
     text-align: center;
-    background: linear-gradient(180deg, #f80112 0%, #2602f5 110%);
+    background: linear-gradient(180deg, #FFA500 0%, #008000 110%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
@@ -23,7 +23,7 @@ body{
 .name{
     margin-top: 40px;
     text-align: center;
-    background: linear-gradient(180deg, #f80112 0%, #2602f5 110%);
+    background: linear-gradient(180deg, #FFA500 0%, #008000 110%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
@@ -37,7 +37,7 @@ body{
 p{
     margin-top: 40px;
     text-align: center;
-    background: linear-gradient(180deg, #f80112 0%, #2602f5 110%);
+    background: linear-gradient(180deg,  #FFA500 0%, #008000 110%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
@@ -51,7 +51,7 @@ button{
         margin-left: 48%;
         margin-top: 30px;
         color: red;
-        background: linear-gradient(180deg, #f80112 0%, #2602f5 110%);
+        background: linear-gradient(180deg,  #FFA500 0%, #008000 110%);
         padding: 5px;
         cursor: pointer;
 
